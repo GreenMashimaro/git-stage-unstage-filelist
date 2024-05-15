@@ -1,0 +1,35 @@
+{
+  "name": "git-stage-unstage-filelist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx ./src/index",
+    "lint": "eslint \"src/**\" --ext \".ts,.vue\"",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.14.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "minimist": "^1.2.8",
+    "picocolors": "^1.0.1",
+    "prettier": "^2.8.8",
+    "tsx": "^4.10.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^8.0.1",
+    "pathe": "^1.1.2"
+  }
+}
